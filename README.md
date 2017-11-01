@@ -1,17 +1,22 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+The program takes the path to the json file  with arbitrary data and outputs the contents of the file to the console in a **prettyprint** style.
 
 # Quickstart
-
-[TODO]
 
 Example of script launch on Linux, Python 3.5:
 
 ```bash
 
 $ python pprint_json.py <path to file>
-# TODO add output example
+
+"geometry": {
+                "coordinates": [
+                    37.63310099917504,
+                    55.820912000154024
+                ],
+                "type": "Point"
+            }
 
 ```
 
